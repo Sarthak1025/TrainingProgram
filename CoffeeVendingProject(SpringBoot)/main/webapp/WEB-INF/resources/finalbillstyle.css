@@ -1,0 +1,13 @@
+html{
+    background-color: beige;
+}
+h1{
+    color: hotpink;
+    font-size: 40px;
+    font-family: Jokerman, serif;
+    text-align: center;
+}
+hr{
+    background: darkslateblue;
+    height: 2px;
+}
