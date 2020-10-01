@@ -1,0 +1,45 @@
+html{
+    background: beige;
+}
+h1{
+    font-family: "Jokerman", serif;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+hr{
+    background: darkslateblue;
+    height: 2px;
+}
+#bean{
+    float: right;
+}
+#serve{
+    float: left;
+}
+#h1{
+    text-align: right;
+    font-family: "Jokerman", serif;
+    color: darkslateblue;
+    font-size: 40px;
+    margin-bottom: 0px;
+    animation-name: about1;
+    animation-duration: 5s;
+}
+#h2{
+    text-align: left;
+    font-family: "Jokerman", serif;
+    color: hotpink;
+    font-size: 40px;
+    margin-bottom: 0px;
+    animation-name: about2;
+    animation-duration: 5s;
+}
+@keyframes about1 {
+    from{background-color: darkslateblue}
+    to{background-color: hotpink}
+}
+@keyframes about2 {
+    from{background-color: hotpink}
+    to{background-color: darkslateblue}
+}

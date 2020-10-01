@@ -1,0 +1,44 @@
+html{
+    background: beige;
+}
+h1{
+    font-family: "Jokerman", serif;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+hr{
+    background-color: darkslateblue;
+    height: 2px;
+}
+#submit1{
+    background: hotpink;
+    font-family: Jokerman, serif;
+    font-size: 40px;
+    color: darkslateblue;
+    text-align: center;
+    margin-left: 450px;
+}
+#text1{
+    background: darkslateblue;
+    font-family: Jokerman, serif;
+    font-size: 40px;
+    color: hotpink;
+    text-align: center;
+    margin-left: 375px;
+}
+select{
+    width: 300px;
+    height: 65px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Jokerman, serif;
+    background-color: darkslateblue;
+    color: hotpink;
+}
+label{
+    text-align: center;
+    font-family: Jokerman, serif;
+    font-size: 40px;
+    margin-left: 300px;
+}

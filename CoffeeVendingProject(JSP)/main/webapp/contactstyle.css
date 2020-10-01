@@ -1,0 +1,36 @@
+html{
+    background: beige;
+}
+h1{
+    font-family: "Jokerman", serif;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+hr{
+    background: darkslateblue;
+    height: 2px;
+}
+.animate_me{
+    font-family: "Jokerman", serif;
+    font-size: 40px;
+    animation-name: contact;
+    animation-duration: 5s;
+    text-align: center;
+}
+.headline{
+    font-family: "Jokerman", serif;
+    font-size: 40px;
+    animation-name: headline, contact;
+    animation-duration: 5s;
+    text-align: center;
+}
+@keyframes contact {
+    from{color: darkslateblue}
+    to{color: hotpink}
+}
+@keyframes headline {
+    0% {text-align: left}
+    50% {text-align: right}
+    100% {text-align: center}
+}
